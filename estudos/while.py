@@ -1,5 +1,6 @@
 import sys
 sys.path.insert(0, '/sdcard/peiton/func')
+from time import sleep
 from funcoes import *
 from math import factorial
 from random import randint
@@ -299,4 +300,43 @@ Ao todo temos {homem} homens cadastrados
 E temos {mulher} mulher com menos de 20
 ''')
 
-fatorial ()
+def banco ():
+  clear(0,0)
+  while True:
+    print('='*32)
+    print('             BANCO')
+    print('='*32)
+    
+    n = int_input('\nQual valor voce quer sacar?\n > R$')
+    c = n // 50
+    c1 = (n % 50) // 10
+    c2 = n % 10
+    print(
+f'''
+Total de {c} cédulas de R$50
+Total de {c1} cédulas de R$10
+Total de {c2} cédulas de R$1
+================================
+      '''
+      )
+    clear(5,0)
+
+    while True:
+      opcao = str_input('Deseja fazer outro saque? [S/N]\n > ')
+      if opcao not in 'NnSs':
+        clear(0,0)
+        print('Opcao inválida')
+        clear(3,0)
+      else:
+        clear(0,0)
+        break
+    
+    if opcao in 'Ss':
+      continue
+    else:
+      clear(0,0)
+      print('Encerrando')
+      sleep(3)
+      return
+
+banco()
