@@ -1,0 +1,1 @@
+# Sempre que for necessario adicionar algum item que possa ter a sua quantidsde mudada, comece fazendo a verificação se este item existe.

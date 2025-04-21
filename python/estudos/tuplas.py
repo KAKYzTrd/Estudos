@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '/sdcard/Estudos/func')
+sys.path.insert(0, '/sdcard/Estudos/python/func')
 from funcoes import *
 from time import sleep as wait
 

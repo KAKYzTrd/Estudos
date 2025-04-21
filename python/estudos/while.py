@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '/sdcard/Estudos/func')
+sys.path.insert(0, '/sdcard/Estudos/python/func')
 from time import sleep
 from funcoes import *
 from math import factorial
