@@ -1,6 +1,6 @@
 def clear(n,n1):
   from rich.console import Console
-  from time import sleep
+  from time import sleep 
   
   sleep(n)
   Console().clear()
@@ -27,3 +27,12 @@ def float_input (prompt):
 
 def str_input (prompt):
   return str (input(prompt))
+
+def wait (n):
+  from time import sleep as wait
+
+  wait(n)
+
+def save (n, m):
+  with open(n, 'a') as arquivo:
+    arquivo.write(m)

@@ -1,0 +1,6 @@
+ 
+Escopo de funções em python, escopo significa o local
+onde determinado código pode atingir.
+Existe o escopo global e local.
+Onde o escopo global é o escopo onde todo o código é alcançavel.
+Já o escopo local é o escopo onde apenas códigos "locais" podem alcança-lo
