@@ -1,6 +1,11 @@
-import sys
-sys.path.insert(0, '/sdcard/Estudos/python/func')
-from funcoes import *
+def clear(n,n1):
+  from rich.console import Console
+  from time import sleep 
+  
+  sleep(n)
+  Console().clear()
+  sleep(n1)
+
 clear(0,0)
 
 def nomeado():

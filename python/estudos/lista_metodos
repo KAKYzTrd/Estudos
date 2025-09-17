@@ -1,35 +1,36 @@
-Tipo list - Mutavel
-Suporta varios valores de qualquer tipo
-cinhecimentos reutilizaveis - indices e fatiamento
 
-Metodos uteis:
-append - Adiciona um item ao final
-insert - Adiciona um item no indice escolhido
-pop - remove do finql ou do indice escolhido
-del - apaga um indice
-clear - limpa a lista
-extend - estende a lista
-+ - concatena a lista
-Create Read Update Delete
-Criar  Ler  Alterar Apagar = lista[1] (CRUD)
+# Tipo list - Mutavel
+# Suporta varios valores de qualquer tipo
+# cinhecimentos reutilizaveis - indices e fatiamento
 
-A concatenaçao de listas pode ser feita de duas maneiras sendo elas:
+# Metodos uteis:
+# append - Adiciona um item ao final
+# insert - Adiciona um item no indice escolhido
+# pop - remove do finql ou do indice escolhido
+# del - apaga um indice
+# clear - limpa a lista
+# extend - estende a lista
+# + - concatena a lista
+# Create Read Update Delete
+# Criar  Ler  Alterar Apagar = lista[1] (CRUD)
 
- 1 - listaZ = listaX + ListaY
- 2 - listaX.extend(ListaY)
+# A concatenaçao de listas pode ser feita de duas maneiras sendo elas:
 
-Podemos "empacortar" uma lista e desempacotar apenas os
-produtos que desejamos utilizando:
+#  1 - listaZ = listaX + ListaY
+#  2 - listaX.extend(ListaY)
 
-lista = ['Pedro', 'Amanda', 'josue', 'Angela', 'Emanuela']
-_, nome1, *_ = lista
+# Podemos "empacortar" uma lista e desempacotar apenas os
+# produtos que desejamos utilizando:
 
-O _ para indicar que a variavel nao sera utilizada,
-porem tambem podemos dar nome a esta variavel por exemplo: 
+# lista = ['Pedro', 'Amanda', 'josue', 'Angela', 'Emanuela']
+# _, nome1, *_ = lista
 
-resto, nome1, *resto = lista 
+# O _ para indicar que a variavel nao sera utilizada,
+# porem tambem podemos dar nome a esta variavel por exemplo: 
 
-tambem podemos utilizala para pegar somente o primeiro e o
-ultimo item da lista ex:
+# resto, nome1, *resto = lista 
 
-nome1, nome2, *_, nome9, nome10 = lista
+# tambem podemos utilizala para pegar somente o primeiro e o
+# ultimo item da lista ex:
+
+# nome1, nome2, *_, nome9, nome10 = lista
